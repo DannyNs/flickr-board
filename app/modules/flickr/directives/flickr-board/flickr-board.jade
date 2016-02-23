@@ -1,0 +1,6 @@
+.col-sm-12
+    h2 Flickr Board
+
+    .row(ng-click="handleBoardClick($event)")
+        .col-sm-3(ng-repeat="flickrImage in flickrImages")
+            flickr-image

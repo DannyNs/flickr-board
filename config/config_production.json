@@ -1,0 +1,4 @@
+{
+    "name": "config production",
+    "api": "https://api.flickr.com/"
+}

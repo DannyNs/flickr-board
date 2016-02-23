@@ -1,0 +1,18 @@
+[
+    "bower_components/underscore/underscore.js",
+    "bower_components/jquery/dist/jquery.js",
+    "bower_components/angular/angular.js",
+    "bower_components/angular-ui-router/release/angular-ui-router.js",
+    "bower_components/angular-local-storage/dist/angular-local-storage.js",
+    "app/modules/flickr/module.js",
+    "app/modules/flickr/constants/flickr-formats.constant.js",
+    "app/modules/flickr/constants/tag-names.constant.js",
+    "app/modules/flickr/values/flickr-image.value.js",
+    "app/modules/flickr/repositories/flickr.repository.js",
+    "app/modules/flickr/services/flickr.service.js",
+    "app/modules/flickr/controllers/main.controller.js",
+    "app/modules/flickr/directives/flickr-board/flickr-board.controller.js",
+    "app/modules/flickr/directives/flickr-board/flickr-board.directive.js",
+    "app/modules/flickr/directives/flickr-image/flickr-image.directive.js",
+    "app/app.js"
+]
