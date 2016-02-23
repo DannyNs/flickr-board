@@ -14,7 +14,7 @@
     $.ajax({
         url: 'config.json?t=' + new Date().getTime(),
         // if we run unit tests we must wait for config to load
-        async: _.isUndefined(window.jasmine) ? true : false,
+        async: false,
         success: function (config) {
 
             // assign config to the CONFIG const
